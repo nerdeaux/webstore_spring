@@ -39,6 +39,7 @@ public class Product implements Serializable {
 	private long unitsInOrder;
 	private boolean discontinued;
 	private String condition;
+	
 	@JsonIgnore
 	private MultipartFile productImage;
 
